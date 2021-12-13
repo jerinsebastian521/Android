@@ -1,0 +1,27 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="150dp"
+        android:hint="Username" />
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:hint="Password" />
+    
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:hint="Login"
+        android:background="@color/colorPrimaryDark"/>
+   
+</LinearLayout>
